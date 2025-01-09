@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import {SchoolList} from './components/school-list'
 
 export const App = ({name}) => {
     // const [counters, setCounters] = useState<number[]>(0)
@@ -7,6 +8,6 @@ export const App = ({name}) => {
     //     Hello World! Counter: {counters.join(',')}
     //     </h1>
 
-    
+    return<SchoolList />
 
 }
